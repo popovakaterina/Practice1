@@ -10,7 +10,6 @@
     double number1 = Convert.ToInt32(Console.ReadLine());
     Console.WriteLine("Print second numder: ");
     double number2 = Convert.ToInt32(Console.ReadLine());
-    Console.WriteLine("Print sing: ");
     if (Sing == "+")
     {
         Console.Write("Result: ");
@@ -31,6 +30,5 @@
         Console.Write("Result: ");
         Console.WriteLine(number1 / number2);
     }
-
 }
 
